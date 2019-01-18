@@ -8,7 +8,7 @@ public interface IStudentDAO {
 
     void save(Student student);
     void update(Student student);
-    void delete(Long id);
+    void delete(Student student);
     List<Student> list();
     Student get(Long id);
 }

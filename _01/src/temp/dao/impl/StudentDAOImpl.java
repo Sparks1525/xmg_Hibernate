@@ -8,6 +8,7 @@ import temp.domain.Student;
 
 import java.util.List;
 
+@SuppressWarnings("all")
 public class StudentDAOImpl implements IStudentDAO {
     @Override
     public void save(Student student) {
@@ -28,7 +29,7 @@ public class StudentDAOImpl implements IStudentDAO {
     }
 
     @Override
-    public void delete(Long id) {
+    public void delete(Student student) {
 
     }
 
