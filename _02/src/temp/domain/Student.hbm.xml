@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="temp.domain">
+
+    <!-- 在class上面添加dynamic-insert=true,那么在insert的时候,只会insert这个类上不为空的属性 -->
+    <class name="Student" table="student" dynamic-insert="false">
+        <!-- property和id上可以通过access属性来设置访问的方式,默认是property,可以设置为field,代表直接使用字段访问 -->
+        <id name="id" column="id" access="property">
+            <generator class="native"/>
+        </id>
+        <!-- 在属性上面添加Insert=false,那么这个属性永远不会出现在insert语句中 -->
+        <property name="name" column="name" insert="true"/>
+        <!-- 在属性上面添加update=false,那么这个属性永远不会出现在update语句中 -->
+        <property name="age" column="age" update="true"/>
+    </class>
+
+</hibernate-mapping>

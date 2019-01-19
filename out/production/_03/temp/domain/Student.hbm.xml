@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="temp.domain">
+    <!-- 在class上面添加dynamic-insert=true,那么在insert的时候,只会insert这个类上不为空的属性 -->
+    <class name="Student" table="student" dynamic-insert="false">
+        <!-- property和id上可以通过access属性来设置访问的方式,默认是property,可以设置为field,代表直接使用字段访问 -->
+        <id name="id" column="id" access="property">
+            <generator class="native"/>
+            <!-- <generator class="assigned"/>  -->
+            <!-- <generator class="uuid"/>  -->
+            <!-- <generator class="increment"/>  -->
+            <!-- <generator class="identity"/>  -->
+            <!-- <generator class="native"/>  -->
+            <!-- <generator class="TableGenerator"/>  -->
+        </id>
+        <!-- 在属性上面添加Insert=false,那么这个属性永远不会出现在insert语句中 -->
+        <property name="name" column="name" insert="true"/>
+        <!-- 在属性上面添加update=false,那么这个属性永远不会出现在update语句中 -->
+        <property name="age" column="age" update="true"/>
+    </class>
+
+</hibernate-mapping>
+
+
+
+
+<!--
+1,对象里面没有主键的概念,对象中对应主键的属性,称为OID(对象标识符);
+2,OID用来唯一标明一个对象实体(加上对象类型)
+3,OID在对象里面不见得只有一个属性;(映射复合主键)
+4,OID是一种特殊的属性,所以属性上的column,type,access都可以在<id>元素使用;
+
+5,OID分为自然主键和代理主键;
+  1,代理主键:没有任何业务逻辑的主键;
+  2,自然主键:有业务逻辑的主键;
+推荐使用代理主键;
+6,一般情况下,会使用OID来重写equals和hashCode方法;
+
+主键生成策略:
+1,assigned:针对自然主键来说;(手动设置主键值,都用assigned)
+assigned只能针对一个自然主键来说;
+
+2,uuid:使用UUID来生成主键;
+  1,主键的类型必须是string;
+  2,主键的值是hibernate生成的,所以hibernate在插入对象之前,已经知道对象的主键值了;
+  3,可以使用UUID,
+
+3,increment;递增;
+  1,主键类型需要是long ,integer等可以增加的数字类型;
+  2,首先查询出当前表最大的id,id+1再设置为当前对象的主键值;
+  3,hibernate会把每一个类型的increment值缓存起来,提高性能;
+  4,hibernate在插入对象之前,已经知道对象的主键值了
+  5,increment性能较高,不能在集群的环境下使用;
+
+4,identity;使用数据库本身的自增主键生成方式;
+  1,对于MYSQL来说,其实我们使用native的时候,就是使用了identity方式;
+  2,要使用identity,必须要求数据库支持自增的方式,SQL SERVER(identity)
+  3,oracle不支持identity方式;
+  4,不支持数据库的迁移;
+
+5,native:native就是使用数据库支持的主键生成方式;
+  对于MYSQL来说,使用identity;
+  对于ORACLE来说,使用sequence;
+
+6,TableGenerator;使用一个额外的表(默认hibernate_sequences)来模拟序列生成器;
+  1,如果没有其他配置,hibernate会使用一个叫做default的序列生成器为所有的对象生成主键;
+  2,可以设置segment_value来为每一个对象单独创建一个序列生成器;
+  3,默认情况下,每生成一个主键需要两个SQL,性能不高(1,select:获取当前id;2,update:更新next_val)
+  4,性能提升,increment_size:设置一次可以取多少个值;(但是会造成id的不连续,cache)
+  5,数据库无关的,(在迁移的时候要拷贝hibernate_sequences表);
+  6,所以hibernate在插入对象之前,已经知道对象的主键值了;
+  7,table是一种非常好的主键生成方式;
+选择:
+1,判断使用自然主键还是代理主键;(自然主键assigned)
+2,是否需要有数据库迁移的需求;(使用数据库无关的生成策略;)
+3,性能
+4,是否在集群环境使用;
+5,单应用使用navtive;
+-->
