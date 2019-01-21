@@ -76,7 +76,7 @@ public class Status5 {
     }
 
     @Test
-    public void update() {
+    public void update1() {
         /*
         控制台输出:
         16:42:53.676 [main] FATAL temp.test.status.Status5 - transaction begin
@@ -90,6 +90,165 @@ public class Status5 {
             LOGGER.fatal("transaction begin");
             session.beginTransaction();
             session.update(student);
+            LOGGER.fatal("transaction commit");
+            session.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session != null && session.getTransaction().isActive()){
+                session.getTransaction().rollback();
+            }
+        } finally {
+            if(session != null && session.isOpen()){
+                session.close();
+            }
+        }
+    }
+
+
+
+    @Test
+    public void update2() {
+        /*
+        控制台输出:
+        14:33:45.706 [main] FATAL temp.test.status.Status5 - transaction begin
+        14:33:45.778 [main] FATAL temp.test.status.Status5 - transaction commit
+        Hibernate: update student set name=?, age=? where id=?
+         */
+        Session session = null;
+        Student student = new Student(3L,"ppp",5);
+        try{
+            session = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session.beginTransaction();
+            student.setName("jjjjjjj");
+            session.update(student);
+            LOGGER.fatal("transaction commit");
+            session.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session != null && session.getTransaction().isActive()){
+                session.getTransaction().rollback();
+            }
+        } finally {
+            if(session != null && session.isOpen()){
+                session.close();
+            }
+        }
+    }
+
+    @Test
+    public void update3() {
+        /*
+        控制台输出:
+        14:35:27.551 [main] FATAL temp.test.status.Status5 - transaction begin
+        Hibernate: select student0_.id as id1_0_0_, student0_.name as name2_0_0_, student0_.age as age3_0_0_ from student student0_ where student0_.id=?
+        14:35:27.658 [main] FATAL temp.test.status.Status5 - transaction commit
+        Hibernate: update student set name=?, age=? where id=?
+         */
+        Session session = null;
+
+        try{
+            session = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session.beginTransaction();
+            Student student = (Student) session.get(Student.class,3L);
+            student.setName("j");
+            session.update(student);
+            LOGGER.fatal("transaction commit");
+            session.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session != null && session.getTransaction().isActive()){
+                session.getTransaction().rollback();
+            }
+        } finally {
+            if(session != null && session.isOpen()){
+                session.close();
+            }
+        }
+    }
+
+    @Test
+    public void update4() {
+        /*
+        控制台输出:
+
+         */
+        Session session = null;
+
+        try{
+            session = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session.beginTransaction();
+            Student student = (Student) session.get(Student.class,3L);
+            session.clear();
+            student.setName("j");
+            session.update(student);
+            LOGGER.fatal("transaction commit");
+            session.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session != null && session.getTransaction().isActive()){
+                session.getTransaction().rollback();
+            }
+        } finally {
+            if(session != null && session.isOpen()){
+                session.close();
+            }
+        }
+    }
+
+
+    @Test
+    public void update5() {
+        /*
+        控制台输出:
+15:24:36.911 [main] FATAL temp.test.status.Status5 - transaction begin
+Hibernate: select student0_.id as id1_0_0_, student0_.name as name2_0_0_, student0_.age as age3_0_0_ from student student0_ where student0_.id=?
+org.hibernate.NonUniqueObjectException: a different object with the same identifier value was already associated with the session: [temp.domain.Student#3]
+	at org.hibernate.engine.internal.StatefulPersistenceContext.checkUniqueness(StatefulPersistenceContext.java:697)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performUpdate(DefaultSaveOrUpdateEventListener.java:293)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsDetached(DefaultSaveOrUpdateEventListener.java:239)
+	at org.hibernate.event.internal.DefaultUpdateEventListener.performSaveOrUpdate(DefaultUpdateEventListener.java:55)
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+	at org.hibernate.internal.SessionImpl.fireUpdate(SessionImpl.java:785)
+	at org.hibernate.internal.SessionImpl.update(SessionImpl.java:777)
+	at org.hibernate.internal.SessionImpl.update(SessionImpl.java:773)
+	at temp.test.status.Status5.update5(Status5.java:216)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+         */
+        Session session = null;
+        Student student2 = new Student(3L,"newsss",33);
+
+        try{
+            session = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session.beginTransaction();
+            // 报错原因: 一级缓存里有两个主键一样的对象 主键必须唯一
+            Student student1 = (Student) session.get(Student.class,3L);
+            session.update(student2);
             LOGGER.fatal("transaction commit");
             session.getTransaction().commit();
         } catch (HibernateException e){
@@ -198,7 +357,7 @@ public class Status5 {
             LOGGER.fatal("transaction begin");
             session2.beginTransaction();
             Student student2 = (Student)session2.get(Student.class, 3L);
-            // 这里如果换成insert会报错,原因在结尾
+            // 这里如果换成update会报错,原因在结尾
             session2.merge(student1);
             LOGGER.fatal("transaction commit");
             session2.getTransaction().commit();
@@ -213,6 +372,91 @@ public class Status5 {
             }
         }
     }
+
+
+
+    @Test
+    public void merge31() {
+        /*
+        15:17:44.651 [main] FATAL temp.test.status.Status5 - transaction begin
+    Hibernate: select student0_.id as id1_0_0_, student0_.name as name2_0_0_, student0_.age as age3_0_0_ from student student0_ where student0_.id=?
+    org.hibernate.NonUniqueObjectException: a different object with the same identifier value was already associated with the session: [temp.domain.Student#3]
+    at org.hibernate.engine.internal.StatefulPersistenceContext.checkUniqueness(StatefulPersistenceContext.java:697)
+    at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performUpdate(DefaultSaveOrUpdateEventListener.java:293)
+    at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsDetached(DefaultSaveOrUpdateEventListener.java:239)
+    at org.hibernate.event.internal.DefaultUpdateEventListener.performSaveOrUpdate(DefaultUpdateEventListener.java:55)
+    at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+    at org.hibernate.internal.SessionImpl.fireUpdate(SessionImpl.java:785)
+    at org.hibernate.internal.SessionImpl.update(SessionImpl.java:777)
+    at org.hibernate.internal.SessionImpl.update(SessionImpl.java:773)
+    at temp.test.status.Status5.merge3(Status5.java:296)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:606)
+    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+    at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+    at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+    at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+    at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+    at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+    at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+    at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+    at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+    at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+    at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+     */
+        Session session1 = null;
+        Student student1 = null;
+        try{
+            session1 = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session1.beginTransaction();
+            student1 = (Student) session1.get(Student.class,3L);
+            LOGGER.fatal("transaction commit");
+            session1.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session1 != null && session1.getTransaction().isActive()){
+                session1.getTransaction().rollback();
+            }
+        } finally {
+            if(session1 != null && session1.isOpen()){
+                session1.close();
+            }
+        }
+
+        Session session2 = null;
+        try{
+            session2 = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session2.beginTransaction();
+            Student student2 = (Student)session2.get(Student.class, 3L);
+            session2.update(student1);
+            LOGGER.fatal("transaction commit");
+            session2.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session2 != null && session2.getTransaction().isActive()){
+                session2.getTransaction().rollback();
+            }
+        } finally {
+            if(session2 != null && session2.isOpen()){
+                session2.close();
+            }
+        }
+    }
+
+
+
 
     @Test
     public void merge4() {

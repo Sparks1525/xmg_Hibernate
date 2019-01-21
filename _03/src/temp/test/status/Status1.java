@@ -15,7 +15,7 @@ public class Status1 {
     //=====================================临时状态 ->持久化状态======================================================
 
     @Test
-    public void save() {
+    public void save1() {
         /*
         控制台输出:
         16:11:48.536 [main] FATAL temp.test.status.Status1 - transaction begin
@@ -29,6 +29,37 @@ public class Status1 {
             LOGGER.fatal("transaction begin");
             session.beginTransaction();
             session.save(student);
+            LOGGER.fatal("transaction commit");
+            session.getTransaction().commit();
+        } catch (HibernateException e){
+            e.printStackTrace();
+            if(session != null && session.getTransaction().isActive()){
+                session.getTransaction().rollback();
+            }
+        } finally {
+            if(session != null && session.isOpen()){
+                session.close();
+            }
+        }
+    }
+
+    /**
+     * 16:35:05.583 [main] FATAL temp.test.status.Status1 - transaction begin
+     * Hibernate: insert into student (name, age) values (?, ?)
+     * 16:35:05.709 [main] FATAL temp.test.status.Status1 - transaction commit
+     * Hibernate: update student set name=?, age=? where id=?
+     */
+    @Test
+    public void save2() {
+
+        Session session = null;
+        Student student = new Student("iiii",5);
+        try{
+            session = new Configuration().configure().buildSessionFactory().openSession();
+            LOGGER.fatal("transaction begin");
+            session.beginTransaction();
+            session.save(student);
+            student.setName("zzz");
             LOGGER.fatal("transaction commit");
             session.getTransaction().commit();
         } catch (HibernateException e){

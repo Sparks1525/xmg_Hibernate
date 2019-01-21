@@ -2,49 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f41936f-0ecc-42b7-a08d-d499073ad5d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib_03.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02/src/temp/dao/IStudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02/src/temp/dao/impl/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02/src/temp/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02/src/temp/test/StatusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02/src/temp/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/_03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/hamcrest-2.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/hamcrest-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/hibernate-core-4.2.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/javassist-3.15.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/jboss-logging-3.1.0.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/junit-4.13-beta-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/junit-4.13-beta-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/log4j-api-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/log4j-core-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/lib/mysql-connector-java-5.1.24-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/dao/impl/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/domain/Student.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib_05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/_04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/hamcrest-2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/hamcrest-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/hibernate-core-4.2.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/javassist-3.15.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/jboss-logging-3.1.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/junit-4.13-beta-1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/junit-4.13-beta-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/log4j-api-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/log4j-core-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/lib/mysql-connector-java-5.1.24-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/domain/Student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/domain/StudentTG.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/domain/StudentTG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/domain/StudentUUID.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/domain/StudentUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/test/generator/Generator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/test/generator/Generator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/test/generator/Generator3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/test/generator/Generator4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/test/generator/Generator5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04/src/temp/test/generator/Generator6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/_05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/hamcrest-2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/hamcrest-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/hibernate-core-4.2.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/javassist-3.15.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/jboss-logging-3.1.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/junit-4.13-beta-1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/junit-4.13-beta-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/log4j-api-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/log4j-core-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/lib/mysql-connector-java-5.1.24-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/src/temp/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/src/temp/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/src/temp/domain/many2one.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05/src/temp/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/_06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/hamcrest-2.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/hamcrest-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/hibernate-core-4.2.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/javassist-3.15.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/jboss-logging-3.1.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/junit-4.13-beta-1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/junit-4.13-beta-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/log4j-api-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/log4j-core-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/lib/mysql-connector-java-5.1.24-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/src/temp/domain/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/src/temp/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/src/temp/domain/one2many.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06/src/temp/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_01/src/temp/domain/Student.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_01/src/temp/domain/Student.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02/src/dao/IStudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/_03/src/temp/dao/IStudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02/src/dao/impl/StudentDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02/src/domain/Student.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_02/src/temp/domain/Student.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02/src/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/_03/src/temp/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_02/src/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03/src/temp/test/status/Status1.java" beforeDir="false" afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03/src/temp/test/status/Status5.java" beforeDir="false" afterPath="$PROJECT_DIR$/_03/src/temp/test/status/Status5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_03/temp/test/status/Status1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_03/temp/test/status/Status1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_03/temp/test/status/Status5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_03/temp/test/status/Status5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_03/temp/test/status/Status6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_03/temp/test/status/Status6.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,45 +94,45 @@
     <session id="57779565">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="2" />
-          <entry key="class" value="7" />
+          <entry key="class" value="27" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="65" />
-          <entry key="xml" value="14" />
+          <entry key="java" value="274" />
+          <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
+          <entry key="CLASS" value="27" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="65" />
+          <entry key="JAVA" value="274" />
           <entry key="Manifest" value="2" />
-          <entry key="XML" value="14" />
+          <entry key="XML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="20" />
-          <entry key="java" value="3210" />
-          <entry key="xml" value="444" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="5992" />
+          <entry key="xml" value="753" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3210" />
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="XML" value="444" />
+          <entry key="JAVA" value="5992" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="XML" value="753" />
         </counts>
       </usages-collector>
     </session>
@@ -102,49 +140,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status5.java">
+        <entry file="file://$PROJECT_DIR$/_05/src/temp/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_03/src/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
-              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_03/src/temp/domain/Student.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="6958">
+              <caret line="418" column="38" lean-forward="true" selection-start-line="418" selection-start-column="38" selection-end-line="418" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status6.java">
+        <entry file="file://$PROJECT_DIR$/_06/src/temp/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+            <state relative-caret-position="57">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status1.java">
+        <entry file="file://$PROJECT_DIR$/_06/src/temp/domain/one2many.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -163,6 +183,7 @@
     <findStrings>
       <find>cacheMode</find>
       <find>cache</find>
+      <find>identity3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,13 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_01/src/temp/dao/IProductDAO.java" />
-        <option value="$PROJECT_DIR$/_01/src/temp/domain/Product.java" />
-        <option value="$PROJECT_DIR$/_01/src/temp/dao/impl/Student.hbm.xml" />
-        <option value="$PROJECT_DIR$/_01/src/temp/domain/Student.hbm.xml" />
-        <option value="$PROJECT_DIR$/_01/src/temp/domain/Student.java" />
-        <option value="$PROJECT_DIR$/_01/src/temp/test/Test.java" />
-        <option value="$PROJECT_DIR$/_01/src/temp/dao/IStudentDAO.java" />
         <option value="$PROJECT_DIR$/_01/src/temp/dao/impl/StudentDAOImpl.java" />
         <option value="$PROJECT_DIR$/_02/src/dao/IStudentDAO.java" />
         <option value="$PROJECT_DIR$/_02/src/dao/impl/StudentDAOImpl.java" />
@@ -197,11 +211,38 @@
         <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status2.java" />
         <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status3.java" />
         <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status4.java" />
-        <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status1.java" />
-        <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status5.java" />
         <option value="$PROJECT_DIR$/_03/src/temp/domain/Student.hbm.xml" />
         <option value="$PROJECT_DIR$/_03/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status6.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/domain/StudentUUID.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator1.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator4.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator5.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/domain/StudentUUID.hbm.xml" />
+        <option value="$PROJECT_DIR$/_04/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/_04/src/temp/domain/StudentTG.hbm.xml" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator6.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator3.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/test/generator/Generator2.java" />
+        <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status.java" />
+        <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status5.java" />
+        <option value="$PROJECT_DIR$/_04/src/temp/domain/Student.hbm.xml" />
+        <option value="$PROJECT_DIR$/_03/src/temp/test/status/Status1.java" />
+        <option value="$PROJECT_DIR$/_05/src/temp/test/Test.java" />
+        <option value="$PROJECT_DIR$/_05/src/temp/domain/Department.java" />
+        <option value="$PROJECT_DIR$/_06/src/temp/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/_06/src/temp/domain/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/_05/src/temp/domain/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/_05/src/temp/domain/Employee.hbm.xml" />
+        <option value="$PROJECT_DIR$/_05/src/temp/domain/many2one.hbm.xml" />
+        <option value="$PROJECT_DIR$/_05/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/_06/src/temp/domain/Employee.hbm.xml" />
+        <option value="$PROJECT_DIR$/_06/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/_06/src/temp/domain/Department.java" />
+        <option value="$PROJECT_DIR$/_05/src/temp/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/_06/src/temp/domain/one2many.hbm.xml" />
+        <option value="$PROJECT_DIR$/_06/src/temp/test/Test.java" />
       </list>
     </option>
   </component>
@@ -211,10 +252,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="10" />
-    <option name="width" value="1199" />
+    <option name="width" value="1329" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -225,63 +266,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
+              <item name="_05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
+              <item name="_05" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
+              <item name="_05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_05" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
+              <item name="_06" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmg_Hibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_03" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="status" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,33 +332,33 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547891996717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548064594100" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_06/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15687852" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sparks\xmg\xmg_Hibernate\_03\lib" />
-      <recent name="D:\Sparks\xmg\xmg_Hibernate\_03\src\temp\domain" />
-      <recent name="D:\Sparks\xmg\xmg_Hibernate\_03\src" />
-      <recent name="D:\Sparks\xmg\xmg_Hibernate\_03" />
-      <recent name="D:\Sparks\xmg\xmg_Hibernate\_02\src\temp\domain" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="temp.test.status" />
-      <recent name="temp.dao.impl" />
-      <recent name="temp.test" />
-      <recent name="temp.dao" />
-      <recent name="test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Sparks\xmg\xmg_Hibernate\_01\src\temp\domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="temp.test" />
+      <recent name="temp.domain" />
+      <recent name="temp.test.generator" />
+      <recent name="temp.test.status" />
+      <recent name="temp.dao.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sparks\xmg\xmg_Hibernate\_06\src\temp\domain" />
+      <recent name="D:\Sparks\xmg\xmg_Hibernate\_06\src" />
+      <recent name="D:\Sparks\xmg\xmg_Hibernate\_06" />
+      <recent name="D:\Sparks\xmg\xmg_Hibernate\_05\src\temp\domain" />
+      <recent name="D:\Sparks\xmg\xmg_Hibernate\_05\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,101 +373,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Status6.load2">
-    <configuration name="Status5.merge4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03" />
+  <component name="RunManager" selected="JUnit.Test.save1">
+    <configuration name="Test.get6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.test.status.*" />
+          <option name="PATTERN" value="temp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="temp.test.status" />
-      <option name="MAIN_CLASS_NAME" value="temp.test.status.Status5" />
-      <option name="METHOD_NAME" value="merge4" />
+      <option name="PACKAGE_NAME" value="temp.test" />
+      <option name="MAIN_CLASS_NAME" value="temp.test.Test" />
+      <option name="METHOD_NAME" value="get6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Status5.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03" />
+    <configuration name="Test.get7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.test.status.*" />
+          <option name="PATTERN" value="temp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="temp.test.status" />
-      <option name="MAIN_CLASS_NAME" value="temp.test.status.Status5" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="PACKAGE_NAME" value="temp.test" />
+      <option name="MAIN_CLASS_NAME" value="temp.test.Test" />
+      <option name="METHOD_NAME" value="get7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Status6.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03" />
+    <configuration name="Test.get8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.test.status.*" />
+          <option name="PATTERN" value="temp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="temp.test.status" />
-      <option name="MAIN_CLASS_NAME" value="temp.test.status.Status6" />
-      <option name="METHOD_NAME" value="get" />
+      <option name="PACKAGE_NAME" value="temp.test" />
+      <option name="MAIN_CLASS_NAME" value="temp.test.Test" />
+      <option name="METHOD_NAME" value="get8" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Status6.load" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03" />
+    <configuration name="Test.save1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.test.status.*" />
+          <option name="PATTERN" value="temp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="temp.test.status" />
-      <option name="MAIN_CLASS_NAME" value="temp.test.status.Status6" />
-      <option name="METHOD_NAME" value="load" />
+      <option name="PACKAGE_NAME" value="temp.test" />
+      <option name="MAIN_CLASS_NAME" value="temp.test.Test" />
+      <option name="METHOD_NAME" value="save1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Status6.load2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_03" />
+    <configuration name="Test.save2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_06" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="temp.test.status.*" />
+          <option name="PATTERN" value="temp.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="temp.test.status" />
-      <option name="MAIN_CLASS_NAME" value="temp.test.status.Status6" />
-      <option name="METHOD_NAME" value="load2" />
+      <option name="PACKAGE_NAME" value="temp.test" />
+      <option name="MAIN_CLASS_NAME" value="temp.test.Test" />
+      <option name="METHOD_NAME" value="save2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Status5.merge4" />
-      <item itemvalue="JUnit.Status5.save" />
-      <item itemvalue="JUnit.Status6.get" />
-      <item itemvalue="JUnit.Status6.load" />
-      <item itemvalue="JUnit.Status6.load2" />
+      <item itemvalue="JUnit.Test.get6" />
+      <item itemvalue="JUnit.Test.get7" />
+      <item itemvalue="JUnit.Test.get8" />
+      <item itemvalue="JUnit.Test.save1" />
+      <item itemvalue="JUnit.Test.save2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Status6.load2" />
-        <item itemvalue="JUnit.Status6.load" />
-        <item itemvalue="JUnit.Status6.get" />
-        <item itemvalue="JUnit.Status5.save" />
-        <item itemvalue="JUnit.Status5.merge4" />
+        <item itemvalue="JUnit.Test.save1" />
+        <item itemvalue="JUnit.Test.save2" />
+        <item itemvalue="JUnit.Test.get8" />
+        <item itemvalue="JUnit.Test.get7" />
+        <item itemvalue="JUnit.Test.get6" />
       </list>
     </recent_temporary>
   </component>
@@ -449,49 +489,50 @@
       <workItem from="1547857156215" duration="9233000" />
       <workItem from="1547886461839" duration="1326000" />
       <workItem from="1547887989223" duration="4003000" />
+      <workItem from="1548031281562" duration="24428000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Status5_merge4 - 2019.01.19 at 17h 24m 30s.xml">
-      <configuration name="Status5.merge4" configurationId="JUnit" />
+    <history-entry file="Test_save1 - 2019.01.21 at 17h 33m 04s.xml">
+      <configuration name="Test.save1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status5_merge4 - 2019.01.19 at 17h 24m 47s.xml">
-      <configuration name="Status5.merge4" configurationId="JUnit" />
+    <history-entry file="Test_save1 - 2019.01.21 at 17h 38m 11s.xml">
+      <configuration name="Test.save1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status5_merge4 - 2019.01.19 at 17h 27m 53s.xml">
-      <configuration name="Status5.merge4" configurationId="JUnit" />
+    <history-entry file="Test_save1 - 2019.01.21 at 17h 42m 08s.xml">
+      <configuration name="Test.save1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status5_merge4 - 2019.01.19 at 17h 28m 13s.xml">
-      <configuration name="Status5.merge4" configurationId="JUnit" />
+    <history-entry file="Test_save1 - 2019.01.21 at 17h 44m 23s.xml">
+      <configuration name="Test.save1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status5_save - 2019.01.19 at 17h 30m 19s.xml">
-      <configuration name="Status5.save" configurationId="JUnit" />
+    <history-entry file="Test_save1 - 2019.01.21 at 17h 47m 49s.xml">
+      <configuration name="Test.save1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status6_get - 2019.01.19 at 17h 52m 55s.xml">
-      <configuration name="Status6.get" configurationId="JUnit" />
+    <history-entry file="Test_save2 - 2019.01.21 at 17h 49m 23s.xml">
+      <configuration name="Test.save2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status6_load - 2019.01.19 at 17h 53m 49s.xml">
-      <configuration name="Status6.load" configurationId="JUnit" />
+    <history-entry file="Test_save2 - 2019.01.21 at 17h 51m 49s.xml">
+      <configuration name="Test.save2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status6_load - 2019.01.19 at 17h 55m 24s.xml">
-      <configuration name="Status6.load" configurationId="JUnit" />
+    <history-entry file="Test_get8 - 2019.01.21 at 17h 53m 25s.xml">
+      <configuration name="Test.get8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status6_load2 - 2019.01.19 at 17h 56m 17s.xml">
-      <configuration name="Status6.load2" configurationId="JUnit" />
+    <history-entry file="Test_save2 - 2019.01.21 at 17h 53m 47s.xml">
+      <configuration name="Test.save2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Status6_load2 - 2019.01.19 at 17h 57m 13s.xml">
-      <configuration name="Status6.load2" configurationId="JUnit" />
+    <history-entry file="Test_save1 - 2019.01.21 at 17h 54m 08s.xml">
+      <configuration name="Test.save1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40379000" />
+    <option name="totallyTimeSpent" value="64807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1" y="10" width="1329" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23561859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -504,7 +545,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.14316703" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09209101" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -515,7 +556,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.505423" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.4864572" />
       <window_info anchor="bottom" id="LuaCheck" order="15" />
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -573,320 +614,425 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_01/src/temp/domain/Product.java" />
-    <entry file="jar://$PROJECT_DIR$/_01/web/WEB-INF/lib/hibernate-core-4.2.0.Final.jar!/org/hibernate/cfg/Configuration.class">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultResolveNaturalIdEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1403" lean-forward="true" selection-start-line="1403" selection-end-line="1403" />
+        <state relative-caret-position="228">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/Hibernate/lib/hibernate.jar!/resources/schemas/hibernate-configuration-3.0.dtd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/_01/web/WEB-INF/lib/hibernate-core-4.2.0.Final.jar!/org/hibernate/QueryParameterException.class">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultInitializeCollectionEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/QueryParameterException.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/AbstractLockUpgradeEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/_01/web/WEB-INF/lib/hibernate-core-4.2.0.Final.jar!/META-INF/MANIFEST.MF">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultLockEventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2248">
-          <caret line="842" column="28" lean-forward="true" selection-start-line="842" selection-start-column="28" selection-end-line="842" selection-end-column="28" />
+        <state relative-caret-position="209">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/hql/spi/AbstractTableBasedBulkIdHandler.java">
+    <entry file="jar://$PROJECT_DIR$/_04/lib/jboss-logging-3.1.0.GA.jar!/org/jboss/logging/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1330">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/_01/web/WEB-INF/lib/hibernate-core-4.2.0.Final.jar!/org/hibernate/hql/internal/antlr/HqlBaseParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/_01/web/WEB-INF/lib/jboss-logging-3.1.0.GA.jar!/org/jboss/logging/BasicLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/internal/CoreMessageLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="156" column="35" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/_01/web/WEB-INF/lib/hibernate-core-4.2.0.Final.jar!/org/hibernate/hql/internal/antlr/HqlBaseLexer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/hql/internal/CollectionProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/Hibernate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/cfg/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="1912" column="56" selection-start-line="1912" selection-start-column="56" selection-end-line="1912" selection-end-column="56" />
+        <state relative-caret-position="241">
+          <caret line="994" selection-start-line="994" selection-end-line="994" />
           <folding>
-            <element signature="e#11485#11486#0" expanded="true" />
-            <element signature="e#11521#11522#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#33996#33997#0" expanded="true" />
+            <element signature="e#34059#34060#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/HibernateException.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/AbstractReassociateEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/AbstractSaveEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultMergeEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/spi/EventType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="e#9496#9497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultPreLoadEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/service/internal/EventListenerServiceInitiator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/SharedSessionContract.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/service/internal/SessionFactoryServiceRegistryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="599">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_01/src/temp/test/Test.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/service/spi/ServiceBinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="433">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#2512#2513#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2655#2656#0" expanded="true" />
+            <element signature="e#2685#2686#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_01/src/temp/domain/Student.hbm.xml">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/service/internal/AbstractServiceRegistryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="307">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_01/src/temp/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_01/src/temp/dao/IStudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_01/src/temp/dao/impl/StudentDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/_02/lib/hibernate-core-4.2.0.Final.jar!/org/hibernate/SessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/SessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="95" column="19" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/dao/impl/StudentDAOImpl.java" />
-    <entry file="file://$PROJECT_DIR$/_02/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_01/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/dao/IStudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/domain/Student.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/dao/impl/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="94" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02/src/temp/test/StatusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/dao/impl/StudentDAO2.java" />
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/dao/impl/StudentDAO.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/service/internal/EventListenerRegistryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status3.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/service/internal/EventListenerGroupImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="110" />
+        <state relative-caret-position="250">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#1716#1737#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status4.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/internal/AbstractSessionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="250">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="e#4492#4493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status.java">
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/cfg/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="514" selection-start-line="514" selection-end-line="514" />
+          <folding>
+            <element signature="e#13918#13919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/engine/transaction/internal/jdbc/JdbcTransactionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1953#1954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/engine/transaction/internal/TransactionCoordinatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+          <folding>
+            <element signature="e#6886#6887#0" expanded="true" />
+            <element signature="e#6918#6919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/engine/transaction/synchronization/internal/SynchronizationCallbackCoordinatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/internal/DefaultSaveOrUpdateEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/engine/internal/StatefulPersistenceContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="1176" selection-start-line="1176" selection-end-line="1176" />
+          <folding>
+            <element signature="e#38229#38230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/event/spi/SaveOrUpdateEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="e#2701#2702#0" expanded="true" />
+            <element signature="e#2885#2886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/internal/SessionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="750" selection-start-line="750" selection-end-line="750" />
+          <folding>
+            <element signature="e#25537#25538#0" expanded="true" />
+            <element signature="e#25589#25590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/_04/lib/log4j-api-2.7.jar!/org/apache/logging/log4j/spi/AbstractLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="1438" selection-start-line="1438" selection-end-line="1438" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04/src/temp/test/generator/Generator4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04/src/temp/test/generator/Generator6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04/src/temp/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04/src/temp/domain/Student.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/temp/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04/src/temp/test/generator/Generator3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <element signature="e#309#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04/src/temp/test/generator/Generator5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="109" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/_03/lib/hibernate-core-4.2.0.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/otherlib/hibernate-release-4.2.0.Final.zip!/hibernate-release-4.2.0.Final/project/hibernate-core/src/main/java/org/hibernate/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="478" column="55" lean-forward="true" selection-start-line="478" selection-start-column="55" selection-end-line="478" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/temp/domain/Student.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="4237">
+          <caret line="244" column="12" selection-start-line="244" selection-start-column="12" selection-end-line="244" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="129" column="13" lean-forward="true" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        <state relative-caret-position="-190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="15" column="109" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03/src/temp/test/status/Status1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/temp/domain/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06/src/temp/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/temp/domain/Employee.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06/src/temp/domain/Employee.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/temp/domain/many2one.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/temp/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06/src/temp/domain/one2many.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06/src/temp/domain/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="909">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05/src/temp/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6958">
+          <caret line="418" column="38" lean-forward="true" selection-start-line="418" selection-start-column="38" selection-end-line="418" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06/src/temp/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
@@ -943,12 +1089,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>_02</last-edited>
+          <last-edited>_01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -968,7 +1113,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib_03</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
