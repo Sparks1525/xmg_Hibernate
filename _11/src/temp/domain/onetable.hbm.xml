@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="temp.domain">
+
+    <class name="Product" table="OTProduct" discriminator-value="1">
+        <id name="id">
+            <generator class="native"/>
+        </id>
+        <discriminator column="TYPES" type="int"/>
+        <property name="name"/>
+
+        <subclass name="Book" discriminator-value="2">
+            <property name="isbn"/>
+            <property name="author"/>
+        </subclass>
+        <subclass name="Cloth" discriminator-value="3">
+            <property name="color"/>
+        </subclass>
+    </class>
+</hibernate-mapping>
+

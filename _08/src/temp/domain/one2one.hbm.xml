@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="temp.domain">
+
+    <class name="QQNumber" table="qqnumber">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="number" column="number"/>
+        <one-to-one name="zone" />
+    </class>
+
+    <class name="QQZone" table="qqzone" >
+        <id name="id" column="id">
+            <generator class="foreign">
+                <param name="property">number</param>
+            </generator>
+        </id>
+        <property name="title" column="title"/>
+        <!-- 默认情况下,one2one并没有生成从对象主键的外键约束,
+        在从对象中的one-to-one元素中添加constrained属性来为从表的主键添加外键约束 -->
+        <one-to-one name="number" constrained="true"/>
+    </class>
+</hibernate-mapping>
+
