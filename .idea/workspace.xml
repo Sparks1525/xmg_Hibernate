@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f41936f-0ecc-42b7-a08d-d499073ad5d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Note/Note.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/_14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/ehcache-core-2.4.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/hamcrest-2.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/hamcrest-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/hibernate-core-4.2.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/hibernate-ehcache-4.2.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/javassist-3.15.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/jboss-logging-3.1.0.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/junit-4.13-beta-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/junit-4.13-beta-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/log4j-api-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/log4j-core-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/mysql-connector-java-5.1.24-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/lib/slf4j-api-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/temp/domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/temp/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/temp/domain/many2one.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14/src/temp/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/_15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/ehcache-core-2.4.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/hamcrest-2.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/hamcrest-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/hibernate-core-4.2.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/hibernate-ehcache-4.2.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/javassist-3.15.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/jboss-logging-3.1.0.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/junit-4.13-beta-1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/junit-4.13-beta-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/log4j-api-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/log4j-core-2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/mysql-connector-java-5.1.24-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15/lib/slf4j-api-1.6.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13/_13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/_13/_13.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_13/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_13/src/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,17 +14,19 @@
     <session id="57779565">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -233,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -268,6 +219,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -439,6 +391,9 @@
       <workItem from="1548149450975" duration="1385000" />
       <workItem from="1548202777273" duration="6381000" />
       <workItem from="1548233597855" duration="596000" />
+      <workItem from="1548289624201" duration="671000" />
+      <workItem from="1548294420722" duration="597000" />
+      <workItem from="1548310437094" duration="597000" />
     </task>
     <servers />
   </component>
@@ -475,12 +430,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96679000" />
+    <option name="totallyTimeSpent" value="98544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1830" height="1057" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14632769" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15141243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
